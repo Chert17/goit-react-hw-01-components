@@ -7,9 +7,9 @@ import './index.css';
 const theme = {
   colors: {
     white: '#fff',
-    accentColor: '#5ebafcb2',
-    red: '#e5100cccc',
-    green: '#0ba800ccc',
+    accentColor: '#5ebafc',
+    red: '#e5100c',
+    green: '#0ba800',
     bgSectionColor: '#ddf7fa',
   },
 };

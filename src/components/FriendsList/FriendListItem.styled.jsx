@@ -15,7 +15,6 @@ export const FriendListItem = styled.li`
 `;
 
 const isOnlineColor = ({ type, theme }) => {
-  console.dir(type);
   switch (type) {
     case false:
       return theme.colors.red;
@@ -25,18 +24,6 @@ const isOnlineColor = ({ type, theme }) => {
       return '#ccc';
   }
 };
-
-// const isOnlineColor = props => {
-//   // console.dir(type);
-//   console.log(props.theme);
-//   if (props.type === 'true') {
-//     console.log(props.type);
-//     return console.log(props.theme.colors.green);
-//   } else {
-//     console.log(props.type);
-//     return console.log(props.theme.colors.red);
-//   }
-// };
 
 export const Chip = styled.span`
   margin-left: 4px;
