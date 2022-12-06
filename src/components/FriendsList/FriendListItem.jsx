@@ -5,14 +5,14 @@ import { Chip } from './FriendListItem.styled';
 export function FriendsListItem({ avatar, name, isOnline, id }) {
   return (
     <FriendListItem key={id}>
-      <Chip type={isOnline}></Chip>
+      <Chip typeV={isOnline} />
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
     </FriendListItem>
   );
 }
 
-FriendsListItem.PropsTypes = {
+FriendsListItem.propTypes = {
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   isOnline: PropTypes.bool.isRequired,

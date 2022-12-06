@@ -54,14 +54,3 @@ export const StatsValue = styled.span`
   font-size: 20px;
   color: #1f3089;
 `;
-
-// export {
-//   UserCard,
-//   UserDesc,
-//   UserPhoto,
-//   UserInfo,
-//   UserStatsList,
-//   UserStatsItem,
-//   StatsName,
-//   StatsValue,
-// };

@@ -18,6 +18,6 @@ export function FriendsList({ friends }) {
   );
 }
 
-FriendsList.PropsTypes = {
+FriendsList.propTypes = {
   friends: PropTypes.arrayOf(PropTypes.shape({})).isRequired,
 };

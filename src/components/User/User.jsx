@@ -1,23 +1,23 @@
 import PropTypes from 'prop-types';
-import { UserCard } from './User.styled';
-import { UserDesc } from './User.styled';
-import { UserPhoto } from './User.styled';
-import { UserInfo } from './User.styled';
-import { UserStatsList } from './User.styled';
-import { UserStatsItem } from './User.styled';
-import { StatsName } from './User.styled';
-import { StatsValue } from './User.styled';
+// import { UserCard } from './User.styled';
+// import { UserDesc } from './User.styled';
+// import { UserPhoto } from './User.styled';
+// import { UserInfo } from './User.styled';
+// import { UserStatsList } from './User.styled';
+// import { UserStatsItem } from './User.styled';
+// import { StatsName } from './User.styled';
+// import { StatsValue } from './User.styled';
 
-// import {
-//   UserCard,
-//   UserDesc,
-//   UserPhoto,
-//   UserInfo,
-//   UserStatsList,
-//   UserStatsItem,
-//   StatsName,
-//   StatsValue,
-// } from './User.styled';
+import {
+  UserCard,
+  UserDesc,
+  UserPhoto,
+  UserInfo,
+  UserStatsList,
+  UserStatsItem,
+  StatsName,
+  StatsValue,
+} from './User.styled';
 
 export function User({ avatar, userName, tag, location, stats }) {
   return (

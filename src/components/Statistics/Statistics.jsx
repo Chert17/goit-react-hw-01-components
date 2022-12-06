@@ -20,7 +20,7 @@ export function Statistics({ title, stats }) {
   );
 }
 
-Statistics.PropsTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
     PropTypes.shape({
@@ -57,7 +57,7 @@ Statistics.PropsTypes = {
 //   );
 // }
 
-// Statistics.PropsTypes = {
+// Statistics.propTypes = {
 //   title: PropTypes.string,
 //   stats: PropTypes.arrayOf(
 //     PropTypes.shape({

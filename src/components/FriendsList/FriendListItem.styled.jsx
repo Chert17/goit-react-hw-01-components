@@ -14,8 +14,8 @@ export const FriendListItem = styled.li`
   }
 `;
 
-const isOnlineColor = ({ type, theme }) => {
-  switch (type) {
+const isOnlineColor = ({ typeV, theme }) => {
+  switch (typeV) {
     case false:
       return theme.colors.red;
     case true:
